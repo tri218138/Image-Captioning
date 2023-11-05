@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/adityajn105/flickr8k
+
+download code from kaggle: https://www.kaggle.com/discussions/general/74235
