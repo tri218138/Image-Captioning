@@ -15,6 +15,12 @@ Dự án Image Captioning này sử dụng các bộ dữ liệu Pokemon và Fli
 
 ## Dòng lệnh cơ bản
 
+Cài đặt môi trường:
+
+```bash
+pip install -r requirements.txt
+```
+
 Sử dụng dòng lệnh sau để chạy dự án:
 
 ```bash
