@@ -3,7 +3,9 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Process some integers.")
-    parser.add_argument("--mode", type=str, help="Select mode (pokemon/flickr8k)")
+    parser.add_argument(
+        "--mode", type=str, help="Select mode (pokemon/flickr8k)", default="pokemon"
+    )
 
     args = parser.parse_args()
 
