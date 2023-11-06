@@ -1,7 +1,11 @@
 import argparse
+from src.download_model import download_model
 
 
 def main():
+    # Download trained model
+    download_model()
+
     parser = argparse.ArgumentParser(description="Process some integers.")
     parser.add_argument(
         "--mode", type=str, help="Select mode (pokemon/flickr8k)", default="pokemon"

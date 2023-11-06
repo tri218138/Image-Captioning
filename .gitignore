@@ -1,4 +1,4 @@
 venv
 __pycache__/
 runs/output/
-model/hub/*
+model/hub/*/pytorch_model.bin
